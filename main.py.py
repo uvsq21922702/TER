@@ -14,7 +14,7 @@ def func(index):
         f.write(r.content)
         print("File downloaded")
 
-    indexdcvu['count'] += 1
+    index['count'] += 1
 
 
 schedule.every(3).minutes.do(func, index)
